@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sin"
-            android:id="@+id/NumSinBtn"
+            android:id="@+id/SinBtn"
             />
         <Button
             android:layout_width="wrap_content"
@@ -106,13 +106,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="6"
-            android:id="@+id/Nu6Btn"
+            android:id="@+id/Num6Btn"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cos"
-            android:id="@+id/NumCosBtn"
+            android:id="@+id/CosBtn"
             />
 
         <Button
@@ -137,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="="
-            android:id="@+id/NumequalBtn"
+            android:id="@+id/ResultBtn"
             />
 
     </GridLayout>
