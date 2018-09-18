@@ -2,30 +2,35 @@ package com.example.jiukheo.calculate;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     protected double res = 0.; //result
+    protected Button ResultBtn;
 
     protected void inputNum(){
         }
 
-        double co4(double A){
+       protected double co4(double A){
 
         return 0.;
         }
 
-        double mathOp(double x){
+       protected double mathOp(double x){
 
         return 0.;
         }
 
-        void printNum(double x){
+       protected void printNum(double x){
 
 
         }
+        protected void calc(){
 
+        }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,8 +57,14 @@ public class MainActivity extends AppCompatActivity {
         EditText Num1 = (EditText) findViewById(R.id.Num1);
         EditText Num2 = (EditText) findViewById(R.id.Num2);
 
+        TextView ResTextView = (TextView) findViewById(R.id.ResTextBtn);
 
 
-
+        ResultBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                calc();
+            }
+        });
     }
 }
